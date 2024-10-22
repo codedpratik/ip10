@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Static Express App</title>
+<style>
+body {
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+background-color: #fdfdfd;
+text-align: center;
+padding: 50px;
+}
+.container {
+max-width: 500px;
+margin: 0 auto;
+background-color: #fbe2e2;
+padding: 30px;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.container h3 {
+margin-top: 20px;
+color: #fa7171;
+}
+img, video, audio {
+display: block;
+margin: 20px auto;
+max-width: 50%;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>Static Express App</h1>
+<h3>Image Example</h3>
+<img src="/images/img1.png" alt="Sample Image">
+<h3>Video Example</h3>
+<video controls>
+<source src="/videos/video1.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<h3>Audio Example</h3>
+<audio controls>
+<source src="/audio/waterfall.mp3" type="audio/mp3">
+Your browser does not support the audio tag.
+</audio>
+</div>
+</body>
+</html>
